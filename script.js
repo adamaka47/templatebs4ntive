@@ -1,0 +1,37 @@
+$(document).ready(function(){
+  $("#cinema-top").owlCarousel({
+  	loop:true,
+  	margin:15,
+  	nav:true,
+  	responsive:{
+  	    0:{
+  	        items:1
+  	    },
+  	    600:{
+  	        items:3
+  	    },
+  	    1000:{
+  	        items:5
+  	    }
+  	}
+  });
+});
+
+$(document).ready(function(){
+  $("#cinema-bottom").owlCarousel({
+  	loop:true,
+  	margin:15,
+  	nav:true,
+  	responsive:{
+  	    0:{
+  	        items:1
+  	    },
+  	    600:{
+  	        items:1
+  	    },
+  	    1000:{
+  	        items:1
+  	    }
+  	}
+  });
+});
